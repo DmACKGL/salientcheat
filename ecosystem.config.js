@@ -4,9 +4,9 @@ module.exports = {
    * http://pm2.keymetrics.io/docs/usage/application-declaration/
    */
   apps : [{
-      name      : 'API',
+      name      : 'SteamSummer',
       script    : 'app.js',
-      watch       : true,
+      watch       : false,
       ignore_watch : ["node_modules", ".git"],
       env: {
         COMMON_VARIABLE: 'true'
