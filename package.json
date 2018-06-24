@@ -1,0 +1,28 @@
+{
+  "name": "SalienGame WebGUI",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "circular-json": "^0.5.4",
+    "compression": "^1.7.2",
+    "cookie-parser": "*",
+    "debug": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-minify": "^1.0.0",
+    "express-rate-limit": "^2.11.0",
+    "express-status-monitor": "^1.0.1",
+    "generic-pool": "^3.4.2",
+    "http-auth": "^3.2.3",
+    "http-error-pages": "^2.0.0",
+    "knex": "^0.14.6",
+    "memory-cache": "^0.2.0",
+    "morgan": "*",
+    "raven": "^2.6.2",
+    "serve-favicon": "*"
+  }
+}
