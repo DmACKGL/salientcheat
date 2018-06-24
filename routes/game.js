@@ -3,7 +3,6 @@ var router = express.Router();
 var Raven = require('raven');
 var RateLimit = require('express-rate-limit');
 var cache = require('memory-cache');
-var screen = require('screen-init')();
 
 var postconfe = new RateLimit({
 	 windowMs: 5*60*1000,
